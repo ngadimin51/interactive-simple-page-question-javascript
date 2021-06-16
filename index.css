@@ -1,0 +1,42 @@
+body {
+    margin: 20px 20px 20px 20px;
+}
+
+input {
+    height: 2em;
+    border-radius: 1em;
+    border: solid 1px rgb(181, 181, 181);
+    padding: 0 10px 0 10px;
+}
+
+.identity {
+    display: flex; justify-content: space-between;
+}
+
+#section-soal {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form input{
+    margin: 0 10px 0 10px;
+}
+
+.form-soal {
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+}
+
+.form-soal div {
+    display: flex;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}

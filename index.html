@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewa Wahyu</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<!--s-->
+<label for="nama">Nama kamu:</label>
+<input type="text" id="nama" placeholder="Masukkan nama" autocomplete="off" />
+    
+<div class="identity">
+    <h2 style="margin-left: 20px;">Nama: <span id="hasil"></span></h2>
+    <h2 style="margin-right: 20px;">Nilai: <span id="nilai">0</span></h2>
+</div>
+
+<!--s-->
+  <hr>
+<!---INPUTAN OUT--->
+<span style="font-size: x-large;">
+  <span style="font-family: Arial;">Tes Belajar TIK</span></span>
+<br />
+<b>Petunjuk: Jumlah poin untuk lanjut ke sesi berikut adalah 7 poin</b>
+<br />
+<noscript>
+  <p class="alert">Javasript tidak mendukung atau tidak aktif di browser anda. Mohon agar mengatifkan javascript anda.</p></noscript>
+<hr />
+
+<div id="section-soal"></div>
+<br />
+<br />
+<center>
+
+<input onclick="NextLevel()" type="button" class="pointer" value="Soal Selanjutnya" />
+
+</center>
+
+<script type='text/javascript' src="soal.json"></script>
+<script type='text/javascript' src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/*****
+UBAH SOAL DISINI
+
+arraySoal adalah array
+arraySoal berisi 10 array dan bisa diubah
+masing-masing array berisi 4 buah object
+object 0 = Soal
+object 1 = Kunci Jawaban
+object 2 = Tampilan Jawaban A
+object 3 = Tampilan Jawaban B
+object 4 = Tampilan Jawaban C
+
+*****/
+arraySoal = [
+    [
+        'Coba pilih A!', //soal 1
+        'Jawaban A', //kunci jawaban, samakan dengan nilai pilihan jawaban 1, 2 atau 3
+        'Jawaban A', //jawaban 1
+        'Jawaban B', //jawaban 2
+        'Jawaban C'], //jawaban 3
+    ['Pilih selain B, dan C!', 'Jawaban A', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 2
+    ['Kalau Pilih B atau C maka akan salah!', 'Jawaban A', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 3
+    ['Huruf sebelum B?', 'Jawaban A', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 4
+    ['Abjad pertama dalam alphabet?', 'Jawaban A', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 5
+    ['Sekarang pilih B!', 'Jawaban B', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 6
+    ['Jawab Selain A & B?', 'Jawaban C', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 7
+    ['Pilih C!', 'Jawaban C', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 8
+    ['Kembali pilih A!', 'Jawaban A', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 9
+    ['Terakhir pilih apa coba?', 'Jawaban B', 'Jawaban A', 'Jawaban B', 'Jawaban C'], //soal 10
+]
